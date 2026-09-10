@@ -1,0 +1,33 @@
+# TODO
+
+## Plugins to install
+- image renderer
+
+## Need to fix
+- noice needs a few things
+    - snacks.nvim or nvim-notify (for proper notifications (*notify* feature))
+    - treesitter parsers
+        - regex
+        - bash
+- lazy complaining about
+    - no luarocks installed
+- nvim-tresitter wants
+    - newer version tree-sitter-cli (terminal app) (v0.26.)
+- telescope wants
+    - rg (BurntSushi/ripgrep) for *live-grep* finder
+    - fd (sharkdp/fd) for extended capabilities
+- 
+
+## Big problems
+- 
+
+## Plugin other plugins want
+- neo-tree
+    - preview image support (OR)
+        - snacks.nvim
+        - image.nvim
+    - lsp integration for commands (OR)
+        - nvim-file-operation
+        - nvim-lsp-file-operation
+    - window picker
+        - nvim-window-picker

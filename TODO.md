@@ -16,7 +16,7 @@
 - telescope wants
     - fd (sharkdp/fd) for extended capabilities
 - todo-comments ui (i dont like it)
-- trouble seems completely broken
+- trouble floating doesn't work
 
 ## Big problems
 - 

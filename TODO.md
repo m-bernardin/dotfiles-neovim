@@ -1,7 +1,16 @@
 # TODO
 
-## Plugins to install
+## Wishlist
 - image renderer
+- statusline
+- window manager
+- find and replace
+- markup rendering
+    - markdown
+    - html
+    - pdf
+- quick commments
+- indent marker
 
 ## Need to fix
 - noice needs a few things

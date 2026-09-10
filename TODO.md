@@ -14,9 +14,9 @@
 - nvim-tresitter wants
     - newer version tree-sitter-cli (terminal app) (v0.26.)
 - telescope wants
-    - rg (BurntSushi/ripgrep) for *live-grep* finder
     - fd (sharkdp/fd) for extended capabilities
-- 
+- todo-comments ui (i dont like it)
+- trouble seems completely broken
 
 ## Big problems
 - 

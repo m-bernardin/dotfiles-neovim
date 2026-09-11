@@ -10,13 +10,11 @@
     - html
     - pdf
 - quick commments
-- indent marker
 - english dictionary on completion engine (only for LaTeX)
 - floating terminal
 
 ## Need to fix
 - noice needs a few things
-    - snacks.nvim or nvim-notify (for proper notifications (*notify* feature))
     - treesitter parsers
         - regex
         - bash
@@ -28,7 +26,6 @@
     - fd (sharkdp/fd) for extended capabilities
 - todo-comments ui (i dont like it)
 - trouble floating doesn't work
-- reimplement snacks? (figure out what it actually is/what I want from it)
 
 ## Big problems
 - 

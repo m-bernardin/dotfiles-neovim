@@ -271,9 +271,8 @@ return{
       },
       -- ##notifications interface
       notify = {
-        enabled = true;
+        enabled = true,
       },
-
     },
   },
 }

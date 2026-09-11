@@ -265,8 +265,13 @@ return{
     lazy = false,
     ---@type snacks.Config
     opts = {
+      -- ##indent guide
       indent = {
         enabled = true,
+      },
+      -- ##notifications interface
+      notify = {
+        enabled = true;
       },
 
     },

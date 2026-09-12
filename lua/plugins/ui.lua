@@ -1,7 +1,7 @@
 return {
-  -- # dashboard managers
+  -- #dashboard managers
 
-  -- ## alpha-nvim (!enabled)
+  -- ##alpha-nvim (!enabled)
   {
     "goolord/alpha-nvim",
     -- dependencies = { 'nvim-mini/mini.icons' },
@@ -18,7 +18,7 @@ return {
     enabled = false
   },
 
-  -- ## dashboard-nvim (enabled)
+  -- ##dashboard-nvim (enabled)
   {
     "nvimdev/dashboard-nvim",
     event = 'VimEnter',
@@ -111,6 +111,10 @@ return {
   {
     "folke/noice.nvim",
     event = "VeryLazy",
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "rcarriga/nvim-notify",
+    },
     opts = {
       lsp = {
         override = {

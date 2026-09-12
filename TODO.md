@@ -14,14 +14,10 @@
 - floating terminal
 
 ## Need to fix
-- noice needs a few things
-    - treesitter parsers
-        - regex
-        - bash
 - lazy complaining about
     - no luarocks installed
 - nvim-tresitter wants
-    - newer version tree-sitter-cli (terminal app) (v0.26.)
+    - newer version tree-sitter-cli (terminal app) (v0.26.1)
 - telescope wants
     - fd (sharkdp/fd) for extended capabilities
 - todo-comments ui (i dont like it)

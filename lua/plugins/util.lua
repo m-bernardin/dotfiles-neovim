@@ -96,11 +96,12 @@ return{
     lazy = false,
     build = ':TSUpdate',
     opts = {
-      -- LazyVim config for treesitter
-      indent = { enable = true }, ---@type lazyvim.TSFeat
-      highlight = { enable = true }, ---@type lazyvim.TSFeat
-      folds = { enable = true }, ---@type lazyvim.TSFeat
-      ensure_installed = {
+      install_dir = vim.fn.stdpath("data") .. "/site",
+    },
+    config = function(_, opts)
+      require("nvim-treesitter").setup(opts)
+
+      require("nvim-treesitter").install({
         "bash",
         "c",
         "diff",
@@ -124,8 +125,8 @@ return{
         "vimdoc",
         "xml",
         "yaml",
-      },
-    }
+      })
+    end,  
   },
 
   -- ##lsp server

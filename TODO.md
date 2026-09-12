@@ -16,10 +16,6 @@
 ## Need to fix
 - lazy complaining about
     - no luarocks installed
-- nvim-tresitter wants
-    - newer version tree-sitter-cli (terminal app) (v0.26.1)
-- telescope wants
-    - fd (sharkdp/fd) for extended capabilities
 - todo-comments ui (i dont like it)
 - trouble floating doesn't work
 

@@ -19,8 +19,6 @@
 - trouble floating doesn't work
 - snacks wants for images 
     - norg ts parser (doesn't seem to exist though)
-    - ImageMagick tool to view non pngs
-    - Tectonic for LaTeX expressions
     - mmdc to render mermaid diagrams
 ## Big problems
 - 

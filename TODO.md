@@ -18,19 +18,12 @@
 - todo-comments ui (i dont like it)
 - trouble floating doesn't work
 - snacks wants for images 
-    - treesitter parsers
-        - css
-        - latex
-        - norg
-        - scss
-        - svelte
-        - typst
-        - vue
+    - norg ts parser (doesn't seem to exist though)
     - ImageMagick tool to view non pngs
     - Tectonic for LaTeX expressions
     - mmdc to render mermaid diagrams
 ## Big problems
-- images don't render
+- 
 
 ## Plugin other plugins want
 - neo-tree

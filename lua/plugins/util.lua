@@ -125,6 +125,14 @@ return{
         "vimdoc",
         "xml",
         "yaml",
+        -- languages required by snacks.image
+        "css",
+        "latex",
+        "norg",
+        "scss",
+        "svelte",
+        "typst",
+        "vue",
       })
     end,  
   },
@@ -274,6 +282,10 @@ return{
       notify = {
         enabled = true,
       },
+      -- ##image renderer
+      image = {
+        enabled = true,
+      }
     },
   },
 }

@@ -1,7 +1,6 @@
 # TODO
 
 ## Wishlist
-- statusline
 - window manager (tabman?)
 - find and replace
 - markup rendering

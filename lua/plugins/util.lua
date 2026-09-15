@@ -41,6 +41,12 @@ return{
     }
   },
 
+  -- ##vscode style auto indent from first column
+  {
+    "VidocqH/auto-indent.nvim",
+    enabled=true,
+  },
+
   -- #autopairs
   {
     "windwp/nvim-autopairs",

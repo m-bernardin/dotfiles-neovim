@@ -44,7 +44,7 @@ return{
   -- ##vscode style auto indent from first column
   {
     "VidocqH/auto-indent.nvim",
-    enabled=true,
+    enabled=false,
   },
 
   -- #autopairs

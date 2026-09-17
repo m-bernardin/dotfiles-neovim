@@ -19,6 +19,7 @@
 - snacks wants for images 
     - norg ts parser (doesn't seem to exist though)
     - mmdc to render mermaid diagrams
+
 ## Big problems
 - 
 

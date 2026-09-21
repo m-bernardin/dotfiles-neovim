@@ -10,6 +10,7 @@
 - quick commments
 - english dictionary on completion engine (only for LaTeX)
 - floating terminal
+- import snippets
 
 ## Need to fix
 - lazy complaining about

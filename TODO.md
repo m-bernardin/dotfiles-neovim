@@ -20,6 +20,7 @@
 - snacks wants for images 
     - norg ts parser (doesn't seem to exist though)
     - mmdc to render mermaid diagrams
+- not sure csharp is actually working; its just not complaining anymore
 
 ## Big problems
 - 

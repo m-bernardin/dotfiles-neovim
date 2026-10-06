@@ -4,7 +4,6 @@
 - window manager (tabman?)
 - find and replace
 - markup rendering
-    - markdown
     - html
     - pdf
 - quick commments

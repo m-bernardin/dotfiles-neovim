@@ -120,4 +120,11 @@ return {
       require("csharp").setup(opts)
     end,
   },
+  -- #javascript support
+  {
+    -- ##syntax highlighting
+    {
+      "yuezk/vim-js",
+    },
+  },
 }

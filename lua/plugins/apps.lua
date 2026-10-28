@@ -8,6 +8,21 @@ return {
       "MunifTanjim/nui.nvim",
       "nvim-tree/nvim-web-devicons", -- optional, but recommended
     },
+    filesystem = {
+      filtered_items = {
+        visible = true,
+        show_hidden_count = true,
+        hide_dotfiles = false,
+        hide_gitignored = false,
+        hide_by_name = {
+          -- add extension names you want to explicitly exclude
+          -- '.git',
+          -- '.DS_Store',
+          -- 'thumbs.db',
+        },
+        never_show = {},
+      },
+    },
     lazy = false, -- neo-tree will lazily load itself
   },
 
@@ -20,6 +35,4 @@ return {
       { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
     }
   },
-
-  -- #
 }
